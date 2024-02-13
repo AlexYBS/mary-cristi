@@ -1,0 +1,228 @@
+body{
+    background-image: url(./images/Imagine\ WhatsApp\ 2024-02-13\ la\ 22.42.54_62c0c09f.jpg);
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Lovers Quarrel", cursive;
+        font-style: normal;
+        font-size: 50px;
+        color: #F72798;
+}
+.coverImage{
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+     height: 300px;
+     width: 500px;
+}
+ h2{
+    color: white;
+    text-align: center;
+ }
+ #countdown{
+    text-align: center;
+    font-family: "Lovers Quarrel", cursive;
+        font-style: normal;
+        font-size: 100px;
+        color: white;
+ }
+ #timeUnitSelector {
+     background-color: #f0f0f0;
+     /* culoarea de fundal */
+     color: #333;
+     /* culoarea textului */
+     padding: 8px;
+     /* spațiu în jurul elementului */
+     font-size: 16px;
+     /* dimensiunea fontului */
+     border: 1px solid #ccc;
+     /* bordura */
+     border-radius: 4px;
+     /* colțuri rotunjite */
+ }
+
+ /* Stilizarea opțiunilor din dropdown */
+ #timeUnitSelector option {
+     background-color: #fff;
+     /* culoarea de fundal */
+     color: #333;
+     /* culoarea textului */
+ }
+
+ #timeUnitSelector{
+    color: #F72798;
+    background-color: black;
+ }
+
+ @media (max-width: 768px) {
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #countdown{
+        font-size: 60px;
+    }
+    
+ }
+ @media (max-width: 480px) {
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    #countdown{
+        font-size: 30px;
+    }
+    
+ }
+ .intro{
+    margin-top: 100px;
+ }
+
+ .navbar {
+     background-color: #D80032!important;
+ }
+
+ .navbar-brand,
+ .navbar-toggler-icon,
+ .navbar-nav a {
+     color: #fff !important;
+ }
+
+ .navbar-toggler {
+     border-color: #fff !important;
+ }
+
+ .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+     background-color: #ff6b6b !important;
+ }
+
+ .dropdown-item {
+     color: #f10303 !important;
+ }
+
+ .form-control,
+ .btn-outline-success {
+     background-color: #fff !important;
+     color: #ff6b6b !important;
+ }
+
+ .offcanvas {
+     background-color: #D80032 !important;
+ }
+
+ .offcanvas-header,
+ .offcanvas-body {
+     color: #fff !important;
+ }
+
+ .btn-close {
+     color: #fff !important;
+ }
+
+ .offcanvas-nav a {
+     color: #fff !important;
+ }
+
+ .offcanvas-nav a:hover {
+     background-color: #ff6b6b !important;
+     color: #fff !important;
+ }
+
+ .offcanvas-nav .nav-item.dropdown:hover .dropdown-menu {
+     background-color: #ff6b6b !important;
+ }
+
+ .offcanvas-nav .dropdown-item {
+     color: #fff !important;
+ }
+
+ .offcanvas-nav .dropdown-item:hover {
+     background-color: #ff6b6b !important;
+     color: #fff !important;
+ }
+
+
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+ }
+
+ .gallery {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin: 20px;
+ }
+
+ .photo {
+     margin: 10px;
+     cursor: pointer;
+   
+ }
+
+ .photo img {
+     width: 100%;
+     height: auto;
+ }
+
+ .modal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     padding-top: 50px;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: black;
+ }
+
+ .modal-content {
+     display: flex;
+     flex-wrap: nowrap;
+ }
+
+ .mySlides {
+     display: none;
+     padding: 20px;
+     text-align: center;
+ }
+
+ .close {
+     position: absolute;
+     top: 15px;
+     right: 35px;
+     color: white;
+     font-size: 40px;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .prev,
+ .next {
+     position: absolute;
+     top: 50%;
+     font-size: 30px;
+     font-weight: bold;
+     cursor: pointer;
+     color: white;
+     padding: 10px;
+     margin-top: -50px;
+ }
+
+ .prev {
+     left: 10px;
+ }
+
+ .next {
+     right: 10px;
+ }

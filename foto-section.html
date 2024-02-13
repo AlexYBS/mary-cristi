@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie Foto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="photo" onclick="openModal(); currentSlide(1)">
+            <img src="./imagini galerie/Imagine WhatsApp 2024-02-13 la 20.14.01_334b725b.jpg" alt="Photo 1">
+        </div>
+        <div class="photo" onclick="openModal(); currentSlide(2)">
+            <img src="./imagini galerie/Imagine WhatsApp 2024-02-13 la 20.14.02_07fbfca7.jpg" alt="Photo 2">
+        </div>
+        <div class="photo" onclick="openModal(); currentSlide(2)">
+            <img src="./imagini galerie/Imagine WhatsApp 2024-02-13 la 20.14.02_1b301949.jpg" alt="Photo 2">
+        </div>
+        <div class="photo" onclick="openModal(); currentSlide(2)">
+            <img src="./imagini galerie/Imagine WhatsApp 2024-02-13 la 20.14.02_655f7662.jpg" alt="Photo 2">
+        </div>
+        <div class="photo" onclick="openModal(); currentSlide(2)">
+            <img src="./imagini galerie/Imagine WhatsApp 2024-02-13 la 20.14.02_8e95894c.jpg" alt="Photo 2">
+        </div>
+        <!-- Adaugă mai multe elemente .photo pentru fiecare imagine -->
+    </div>
+
+    <!-- Modal pentru afișarea imaginilor mărite -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides">
+                <img src="img/photo1.jpg" alt="Photo 1">
+            </div>
+            <div class="mySlides">
+                <img src="img/photo2.jpg" alt="Photo 2">
+            </div>
+            <!-- Adaugă mai multe elemente .mySlides pentru fiecare imagine -->
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
